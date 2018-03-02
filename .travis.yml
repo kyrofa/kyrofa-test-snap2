@@ -8,4 +8,3 @@ deploy:
     branch: feature/snap-support
   on:
     branch: master # or all_branches: true
-  token: 'this-is-a-test-token'
