@@ -1,12 +1,12 @@
 language: generic
 sudo: required
 
-after_success:
-- sudo apt update && sudo apt install -y snapd
-- sudo snap install core
-- sudo snap install snapcraft --classic --channel=edge/1752964-fix-trusty
-
-- /snap/bin/snapcraft
+#after_success:
+#- sudo apt update && sudo apt install -y snapd
+#- sudo snap install core
+#- sudo snap install snapcraft --classic --channel=edge/1752964-fix-trusty
+#
+#- /snap/bin/snapcraft
 
 deploy:
   provider: snap
