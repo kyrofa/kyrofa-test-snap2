@@ -1,7 +1,5 @@
 language: generic
 sudo: required
-dist: xenial
-group: edge
 
 deploy:
   provider: snap
