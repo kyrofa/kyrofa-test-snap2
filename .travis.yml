@@ -8,3 +8,4 @@ deploy:
     branch: feature/snap-support
   on:
     branch: master # or all_branches: true
+  channel: edge
