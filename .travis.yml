@@ -16,3 +16,4 @@ deploy:
   on:
     branch: master # or all_branches: true
   channel: edge
+  skip_cleanup: true
