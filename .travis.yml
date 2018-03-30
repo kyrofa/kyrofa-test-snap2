@@ -1,7 +1,5 @@
 language: generic
 sudo: required
-dist: xenial
-group: edge
 
 #after_success:
 #- sudo apt update && sudo apt install -y snapd
