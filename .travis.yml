@@ -10,10 +10,10 @@ after_success:
 
 deploy:
   provider: snap
+  snap: '*.snap'
   edge:
     source: kyrofa/dpl
     branch: feature/snap-support
   on:
     branch: master # or all_branches: true
-  channel: edge
   skip_cleanup: true
